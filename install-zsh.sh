@@ -12,8 +12,5 @@ sed -i '/ZSH_THEME="robbyrussell"/c\ZSH_THEME="intheloop"' ~/.zshrc
 # display additional info
 echo "Don't forget to change the gnome-terminal command to zsh in the profile preferences."
 
-# run zsh
-zsh
-
 # remove yourself
 rm $0

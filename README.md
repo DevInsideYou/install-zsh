@@ -1,4 +1,4 @@
-# Installs [Zsh](https://www.zsh.org/) on [Ubuntu](https://www.ubuntu.com/)
+# Installs [Zsh](https://www.zsh.org/) & [Oh My Zsh](https://ohmyz.sh/) on [Ubuntu](https://www.ubuntu.com/)
 
 ```bash
 wget -q https://raw.githubusercontent.com/DevInsideYou/install-zsh/master/install-zsh.sh
