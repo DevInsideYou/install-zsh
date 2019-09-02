@@ -4,7 +4,10 @@
 sudo apt install -y zsh
 
 # install oh-my-zsh
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+wget -q https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O install.sh
+sudo chmod +x install.sh
+./install.sh
+rm install.sh
 
 # change theme to "intheloop"
 sed -i '/ZSH_THEME="robbyrussell"/c\ZSH_THEME="intheloop"' ~/.zshrc
