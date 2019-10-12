@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# remove yourself
+rm $0
+
 # install zsh
 sudo apt install -y zsh
 
@@ -13,11 +16,5 @@ sudo chmod +x $TARGET
 ./$TARGET
 rm $TARGET
 
-# change theme to "intheloop"
-sed -i '/ZSH_THEME="robbyrussell"/c\ZSH_THEME="intheloop"' ~/.zshrc
-
-# display additional info
-echo "Don't forget to change the gnome-terminal command to zsh in the profile preferences."
-
-# remove yourself
-rm $0
+echo
+echo '"zsh" is now on the path'
