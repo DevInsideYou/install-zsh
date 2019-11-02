@@ -4,7 +4,7 @@
 rm $0
 
 # install zsh
-sudo apt install -y zsh
+sudo apt install -y zsh wget git
 
 TARGET=install.sh
 
