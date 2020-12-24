@@ -4,17 +4,7 @@
 rm $0
 
 # install zsh
-sudo apt install -y zsh wget git
+sudo apt install -y zsh
 
-TARGET=install.sh
-
-URL=https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/$TARGET
-
-# install oh-my-zsh
-wget -q $URL -O $TARGET
-sudo chmod +x $TARGET
-./$TARGET
-rm $TARGET
-
-echo
-echo '"zsh" is now on the path'
+# install Oh My Zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
